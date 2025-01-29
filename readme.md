@@ -4,8 +4,8 @@ A Java application that uses Apache Tika to analyze PDF documents and generate d
 
 ## Resutls
 
-If you are only here looking oft the results of the pdf anayasis you can find the sample article that was used here: [The Prevalence of Inappropriate Image Duplication in Biomedical
-Research Publications](./PrevalenceInappropriate.pdf) and you can find the results of the anaysys here: [analysis.md](./analysis.md)
+If you are only here looking for the results of the pdf anayasis you can find the sample article that was used here: [The Prevalence of Inappropriate Image Duplication in Biomedical
+Research Publications](./PrevalenceInappropriate.pdf) and you can find the results of the tika anaysys here: [analysis.md](./analysis.md)
 
 ## Features
 
@@ -45,12 +45,4 @@ mvn exec:java -Dexec.mainClass="pdf.PdfAnalyzer" -Dexec.args="path/to/pdf/file.p
 
 Replace `path/to/pdf/file.pdf` with the path to the PDF file you want to analyze.
 
-The output will be saved to a file named `analysis.md` in the `target` directory.
-
-## Customization
-
-You can customize the analyzer by modifying the `PdfAnalyzer` class. Here are some of the things you can do:
-
-- Add or remove metadata and properties
-- Change the formatting of the output
-- Implement new analysis methods
+The output will be saved to a file named `analysis.md` in the root directory.
