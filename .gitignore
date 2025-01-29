@@ -4,5 +4,3 @@ target/
 .project
 .classpath
 .vscode/
-*.pdf
-analysis.md
