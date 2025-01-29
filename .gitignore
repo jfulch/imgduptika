@@ -1,0 +1,8 @@
+target/
+*.class
+.settings/
+.project
+.classpath
+.vscode/
+*.pdf
+analysis.md
